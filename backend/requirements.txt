@@ -1,0 +1,20 @@
+# FastAPI Core
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+python-multipart>=0.0.9
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+
+# File Processing
+PyPDF2>=3.0.0
+pypdf>=4.0.0
+
+# AI - Core packages only (langchain adds too many dependencies)
+openai>=1.12.0
+
+# Environment & Configuration
+python-dotenv>=1.0.0
+
+# Utils
+aiofiles>=23.0.0
+httpx>=0.26.0
